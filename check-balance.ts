@@ -8,14 +8,14 @@ import {
 import {
     airdropIfRequired,
   } from "@solana-developers/helpers";
+  import "dotenv/config";
+
   
 
 const connection = new Connection(clusterApiUrl("devnet"));
 console.log(`⚡️ Connected to devnet`);
 
-const publicKey = new PublicKey("G8h1dTdv4jXYa3oKGFmBBXguGMUHjCyFhzh6Wvabg5th");
-
-//first
+const publicKey = new PublicKey(process.env.PUBLIC_KEY);
 
 const airdrop1 = await airdropIfRequired(
     connection,
