@@ -1,7 +1,7 @@
 import bs58 from "bs58";
 import { Keypair } from "@solana/web3.js";
 
-const TARGET_PREFIX = "anza";
+const TARGET_PREFIX = "a";
 let count = 0;
 
 while (true) {
@@ -16,7 +16,7 @@ while (true) {
         console.log(count);
         break;
     }
-    if (count % 100 === 0) {
+    if (count % 10000 === 0) {
         console.log(`Check ${count} keys...`);
     }
 }
