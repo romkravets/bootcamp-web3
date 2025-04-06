@@ -13,14 +13,13 @@ const sender = Keypair.fromSecretKey(asArray);
 
 const connection = new Connection(clusterApiUrl("devnet"));
 
-// Our token has two decimal places
 const MINOR_UNITS_PER_MAJOR_UNITS = Math.pow(10, 2);
 
 const tokenMintAccount = new PublicKey(
-  "7r2yYxijvFzgw9KGvKHTnqxeFNPYAS868FCaRBD3WiXw"
+  "Ajb4desiF2H1W4vv3cQsS8Sku7PKDLvPUDPjViRAJ8ZN"
 );
 
-const recipientAssociatedTokenAccount = new PublicKey("Dqj8fnYG9tppqSiCY4qMhXaJarPNHaf1f4NiM8oc3HU2");
+const recipientAssociatedTokenAccount = new PublicKey("MXYnw7CTEyFihCfwscu57SHPV7L377mFro99P8qbfDx");
   
   const transactionSignature = await mintTo(
     connection,

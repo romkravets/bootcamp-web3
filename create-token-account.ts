@@ -23,7 +23,7 @@ console.log(
 );
 
 
-const tokenMintAccount = new PublicKey("7r2yYxijvFzgw9KGvKHTnqxeFNPYAS868FCaRBD3WiXw");
+const tokenMintAccount = new PublicKey("Ajb4desiF2H1W4vv3cQsS8Sku7PKDLvPUDPjViRAJ8ZN");
 const recipient = new PublicKey("C7Bcb8j7CWx8rUhm8JvVJofmrFbU9u7xfYccTEREzXc2");
   
   const tokenAccount = await getOrCreateAssociatedTokenAccount(

@@ -1,0 +1,23 @@
+{
+    "name": "ROM-12",
+    "symbol": "RK-12",
+    "description": "My first token with metadata on Solana",
+    "seller_fee_basis_points": 0,
+    "image": "https://orange-payable-sawfish-293.mypinata.cloud/ipfs/bafkreicqj2m25ioppdza7ljnckq2dguhaoapt2rshe6g53fvoetuealjba",
+    "attributes": [
+      { "trait_type": "Creator", "value": "Roman Kravets" }
+    ],
+    "properties": {
+      "files": [
+        { "uri": "https://orange-payable-sawfish-293.mypinata.cloud/ipfs/bafkreicqj2m25ioppdza7ljnckq2dguhaoapt2rshe6g53fvoetuealjba", "type": "image/png" }
+      ],
+      "category": "image",
+      "creators": [
+        {
+          "address": "C7Bcb8j7CWx8rUhm8JvVJofmrFbU9u7xfYccTEREzXc2",
+          "share": 100
+        }
+      ]
+    }
+  }
+  

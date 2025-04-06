@@ -19,7 +19,7 @@ const sender = Keypair.fromSecretKey(asArray);
 
 const connection = new Connection(clusterApiUrl("devnet"));
 
-console.log(`🔑 Our public key is: ${sender.publicKey.toBase58()}`);
+console.log(`🔑 Public key is: ${sender.publicKey.toBase58()}`);
 
 const tokenMint = await createMint(
     connection,
